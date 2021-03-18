@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+    <title>Submit</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;700&display=swap" rel="stylesheet">
+</head>
+<form method="post" action="../../assets/php/db.php">    
+    <div class="container">
+        <div class="signupBox">
+             <div class="title">
+                 Sign Up *IQ should be above 20*
+             </div>
+             <div class="row">
+                <div class="col">
+                    <div class="textBoxTop">
+                        <input type="text" placeholder="USN" name="firstName" required>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="textBoxTop">
+                        <input type="text" placeholder="Name" name="lastName" required>
+                    </div>
+                </div>
+             </div>
+             <div class="textbox">
+                <input type="email" name="email" placeholder="Email" required>
+             </div>
+             <div class="textbox">
+                <label for="date" ><b>Date of birth :</b></label>
+                <input type="date" name="date" placeholder="Date of birth" required>
+             </div>
+             <div class="textbox">
+                <input type="text" name="edu" placeholder="Highest level of education completed" required>
+             </div>
+             <div class="textbox">
+                <input type="text" name="areaOfExpertise"placeholder="Knowledgeable fields" required>
+             </div>
+             <div class="secondTitle">
+                Skills
+             </div>
+             <div class="textbox">
+               <input type="text" name="SKILL" placeholder="Most defining skill" required>
+             </div>
+            <div class="textbox">
+               <input type="text" name="lvl" placeholder="Proficiency in said skill" required>
+            </div>
+             <div class="secondTitle">
+               Test Results
+             </div>
+             <div class="textbox">
+               <input type="number" name="IQ" placeholder="IQ Scored" required>
+             </div>
+            <div class="textbox">
+               <input type="number" name="EQ" placeholder="EQ Scored" required>
+            </div>
+             <div class="textbox">
+               <input type="text" name="ATTRIBUTE" placeholder="Attribute given" required>
+             </div>
+            <div class="radioBox">
+                <p>select the role you wish to apply for:</p>
+                <input type="radio"  name="job[]" value="analyst">
+                <label for="analyst">Analyst</label><br>
+                <input type="radio"  name="job[]" value="programmer">
+                <label for="programmer">Programmer</label><br>
+                <input type="radio"  name="job[]" value="manager">
+                <label for="manager">Manager</label>
+            </div>
+            <div class="radioBox">
+                <p><label>I confirm that I am applying to </label></p>
+                <input type="radio" name="company[]" value="Amazon" checked>
+                <label for="Amazon">Amazon</label><br>
+                <input type="radio" name="company[]" value="Accenture">
+                <label for="Accenture">Accenture</label><br>
+                <input type="radio" name="company[]" value="Google">
+                <label for="Google">Google</label><br>
+                <input type="radio" name="company[]" value="HP">
+                <label for="HP">HP</label><br>
+                <input type="radio" name="company[]" value="IBM">
+                <label for="IBM">IBM</label><br>
+                <input type="radio" name="company[]" value="Mahindra">
+                <label for="Mahindra">Mahindra</label><br>
+                <input type="radio" name="company[]" value="TCS">
+                <label for="TCS">TCS</label><br>
+                <input type="radio" name="company[]" value="Wipro">
+                <label for="Wipro">Wipro</label><br>
+            </div>
+            <div class="button">
+                    <input type="submit"/>
+            </div>
+        </div>
+    </div>
+</form> 

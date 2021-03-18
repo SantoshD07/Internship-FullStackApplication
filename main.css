@@ -1,0 +1,202 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("/DarkBG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -moz-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.signupBox{
+    width: 500px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.25);
+}
+
+.fetchContainer{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("assets/img/DarkBG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -moz-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.signupBox{
+    width: 500px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.25);
+}
+
+.fetchBox{
+    width: 800px;
+    max-height: 800px;
+    overflow-y:auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.25);
+}
+
+.title{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    color: #444444;
+    margin: 20px 0 70px 0;
+}
+
+
+.title2{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    color: #ffd000;
+    margin: 20px 0 70px 0;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col{
+    float: left;
+    width: 50%;
+}
+
+.textBoxTop{
+    width: 95%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #666666;
+}
+.textBoxTop input{
+    border: none;
+    outline: none;
+    color: #333333;
+    font-weight: bold;
+}
+
+.textbox{
+    
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #666666;
+    margin: 16px 0 ;
+}
+
+.textbox input{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 8px 0;
+    font: Bold;
+    color: #333333;
+    font-weight: 600;
+}
+
+.button input{
+    width: 100%;
+    align-items: center;
+    border: 1px;
+    border-radius: 5px;
+    padding: 8px 0;
+    font: bold;
+    color: #333333;
+    font-weight: 600;
+}
+
+
+
+.table{
+    border-collapse:collapse;
+    background-color: #fff;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.03);
+    border-radius:10px;
+    margin: auto;
+}
+
+th,td{
+    border:1px solid #f2f2f2;
+    padding: 8px 30px;
+    text-align: center;
+    color: grey;
+}
+
+th{
+    text-transform: uppercase;
+    font-weight:500;
+
+}
+
+td{
+    font-size: 13px;
+}
+
+.post_class{
+    text-transform: uppercase;
+}
+
+.fa{
+    font-size:18px;
+}
+.fa-edit{
+    color: #63c76a;
+}
+.fa-trash { color: #ff0000;}
+
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    width: 50%;
+
+}
+
+.background{
+    object-fit: contain;
+    width:100%;
+
+}
+
+.tb{
+    font: Bold;
+    color: #333333;
+    font-weight: 600;
+}

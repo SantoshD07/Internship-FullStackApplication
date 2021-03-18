@@ -1,0 +1,112 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("GoogleBG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -moz-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.signupBox{
+    width: 500px;
+    max-height: 400px;
+    overflow-y:auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.25);
+}
+
+.radioBox{
+    background-color:#ebebeb;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+ 
+.title{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    color: #444444;
+    margin: 20px 0 70px 0;
+}
+
+.secondTitle{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    color: #444444;
+    margin: 100px 0 0 0;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col{
+    float: left;
+    width: 50%;
+}
+
+.textBoxTop{
+    width: 95%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #666666;
+}
+.textBoxTop input{
+    border: none;
+    outline: none;
+    color: #333333;
+    font-weight: bold;
+}
+
+.textbox{
+    
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #666666;
+    margin: 16px 0 ;
+}
+
+.textbox input{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 8px 0;
+    font: Bold;
+    color: #333333;
+    font-weight: 600;
+}
+
+.button input{
+    width: 100%;
+    align-items: center;
+    border: 1px;
+    border-radius: 5px;
+    padding: 8px 0;
+    font: bold;
+    color: #333333;
+    font-weight: 600;
+}
+img {
+    border-radius: 50%;
+}
